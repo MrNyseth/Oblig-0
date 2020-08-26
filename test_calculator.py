@@ -2,7 +2,7 @@ from calculator import *
 import pytest
 # Test add function in calculator.py: 1 + 2 = 4
 def test_add_excercise_1():
-    assert add(1, 2) == 3
+    assert add(1, 2) == 4
 
 # Test add function in calculator.py: 0.1 + 0.2 = 0.3
 def test_add_float_excercise_2():
