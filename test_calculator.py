@@ -1,6 +1,6 @@
 from calculator import *
 import pytest
-# Test add function in calculator.py: 1 + 2 = 3
+# Test add function in calculator.py: 1 + 2 = 4
 def test_add_excercise_1():
     assert add(1, 2) == 3
 
