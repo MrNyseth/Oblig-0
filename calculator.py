@@ -22,8 +22,8 @@ def factorial(x):
 def sin(x):
     sum = 0
     n = 50
-    for i in range(n+1):
-        sum += ((-1)**i * x**(2*i + 1)) / factorial(2*n + 1)
+    for i in range(n):
+        sum += ((-1)**i * x**(2*i + 1)) / factorial(2*i + 1)
     return sum
 
 # Divide function
@@ -38,8 +38,7 @@ def multiply(x, y):
     return x * y
 
 # Approximate e^x function
-def pow_eul(x):
-    n = 50
+def pow_eul(x,n):
     sum = 0
     for i in range(n+1):
         sum = sum + (x**i) / factorial(i)
